@@ -1,10 +1,11 @@
 {
   "name": "my-demo-test-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a demo package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
     "url": "https://github.com/pratima-olixlab/my-demo-package/issues"
   },
   "homepage": "https://github.com/pratima-olixlab/my-demo-package#readme",
-  "keywords": []
+  "keywords": ["react", "component", "npm"],
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1"
+  }
 }
