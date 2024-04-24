@@ -1,5 +1,5 @@
 function helloNpm() {
-    return "hello NPM"
+    return "Hello NPM"
   }
   
   module.exports = helloNpm
