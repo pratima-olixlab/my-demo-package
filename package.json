@@ -16,13 +16,5 @@
     "url": "https://github.com/pratima-olixlab/my-demo-package/issues"
   },
   "homepage": "https://github.com/pratima-olixlab/my-demo-package#readme",
-  "keywords": [
-    "This",
-    "is",
-    "a",
-    "package",
-    "for",
-    "demo",
-    "purpose"
-  ]
+  "keywords": []
 }
